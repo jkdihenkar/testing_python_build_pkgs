@@ -1,5 +1,13 @@
 # Jenkins Build Output
 
+References:
+
+* For pylint: http://www.alexconrad.org/2011/10/jenkins-and-python.html
+
+The plugin shown here is depricated so used `Warnings Plugin`
+
+* For `nose` test reports: http://www.alexconrad.org/2011/10/jenkins-and-python.html
+
 After integration with jenkins and build
 
 ```
