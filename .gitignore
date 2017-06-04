@@ -5,3 +5,5 @@
 dist/*
 build/*
 test_build_package_deploy.egg-info/*
+nosetests.xml
+pylint.out
