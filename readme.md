@@ -1,6 +1,6 @@
 # Python Builds and Pkgs
 
-Testing out Py build pipeline with - `python3`, `pydoc`, Jenkins, PYZ files.
+Testing out Py build pipeline with Buildtools - `python3`, `pydoc`, `setuptools`, `nosetests` AND CI/CD Jenkins.
 
 # Install the package
 
