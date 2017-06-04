@@ -4,7 +4,7 @@ import unittest
 
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 
-from worker_lib import Worker
+from myapp.worker_lib import Worker
 
 
 class TestWorkerLib(unittest.TestCase):
