@@ -49,3 +49,24 @@ CLASSES
 
 ```
 
+# nosetests
+
+Running nosetests (Ref: http://nose.readthedocs.io/en/latest/testing.html)
+
+```
+[jd@jaypc testing_python_build_pkgs]$ nosetests --with-coverage -v
+test_positive_addition_np (test_myapp.TestWorkerLib) ... ok
+test_positive_addition_pn (test_myapp.TestWorkerLib) ... ok
+test_positive_addition_pp (test_myapp.TestWorkerLib) ... ok
+test_positive_assition_nn (test_myapp.TestWorkerLib) ... ok
+test_selfintro (test_myapp.TestWorkerLib) ... ok
+
+Name            Stmts   Miss  Cover
+-----------------------------------
+worker_lib.py       8      0   100%
+----------------------------------------------------------------------
+Ran 5 tests in 0.008s
+
+OK
+
+```
